@@ -1,0 +1,179 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.img_forside {
+  background-image: url(img/Asset_2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+body {
+  /* background-image: url(img/Asset_2.webp); */
+  background-position: 12% 38%;
+  background-color: black;
+}
+
+.h1_forside {
+  text-align: center;
+  margin-top: 75px;
+  color: #ebebeb;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.button-container1 {
+  width: 100px;
+  margin: 0 auto;
+}
+
+/* .button-container2 {
+  width: 100px;
+} */
+
+.web {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/web.webp);
+}
+
+.ux {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/UX_img.webp);
+}
+
+.animation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/spil.webp);
+}
+
+.indhold {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/jpeg.jpeg2.webp);
+}
+
+.grid_1 {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr;
+  margin-bottom: 30px;
+}
+
+.img_web_underside {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.web_underside {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.om_mig_underside {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Desktop
+.web_underside {
+  grid-template-columns: 1fr 1fr;
+} 
+*/
+
+.web_underside img {
+  height: 250px;
+  width: 70%;
+  margin: 0 auto;
+}
+.web_underside p {
+  color: white;
+  text-align: center;
+  font-family: "Jakarta";
+}
+
+.om_mig_underside img {
+  border-radius: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  color: #ebebeb;
+  padding: 10px;
+}
+.om_mig_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.p1 p {
+  padding: 30px;
+}
+@media (min-width: 700px) {
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+  }
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+  }
+  .h1_forside {
+    text-align: center;
+    margin-top: 300px;
+    color: #ebebeb;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .h1 {
+    font-family: "Jakarta-bold";
+    text-align: center;
+    margin-top: 300px;
+    color: #ebebeb;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .web_underside {
+    grid-template-columns: 1fr 1fr;
+  }
+  .web_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .om_mig_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 2));
+    border-radius: 7px;
+  }
+
+  .om_mig_underside img {
+    margin-left: 20px;
+    border-radius: 37px;
+    padding: 33px;
+  }
+  .h3_portfolio h3 {
+    text-align: center;
+    color: #ebebeb;
+    padding: 10px;
+  }
+
+  .foride_anders {
+    height: 50%;
+  }
+}
