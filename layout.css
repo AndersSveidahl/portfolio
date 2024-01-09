@@ -122,7 +122,22 @@ h3 {
 .p1 p {
   padding: 30px;
 }
+
 @media (min-width: 700px) {
+  .om_mig_menu {
+    text-align: right;
+    position: fixed;
+    position: relative/absolute;
+    top: 50px;
+    right: 50px;
+  }
+  .forside_menu {
+    text-align: left;
+    position: fixed;
+    position: relative/absolute;
+    top: 50px;
+    left: 50px;
+  }
   .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -131,7 +146,9 @@ h3 {
   .grid_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 120px;
+    margin-top: 25px;
+    gap: 0px;
+    margin-bottom: 0px;
   }
   .h1_forside {
     text-align: center;
@@ -153,7 +170,6 @@ h3 {
   }
   .web_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
   }
   .om_mig_grid {
     display: grid;
@@ -166,14 +182,5 @@ h3 {
     margin-left: 20px;
     border-radius: 37px;
     padding: 33px;
-  }
-  .h3_portfolio h3 {
-    text-align: center;
-    color: #ebebeb;
-    padding: 10px;
-  }
-
-  .foride_anders {
-    height: 50%;
   }
 }
