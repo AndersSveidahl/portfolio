@@ -4,7 +4,7 @@ img {
   display: block;
 }
 .img_forside {
-  background-image: url(img/Asset_2.webp);
+  background-image: url(..img/Asset_2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,6 +21,12 @@ body {
   margin-top: 75px;
   color: #ebebeb;
   font-size: 20px;
+}
+
+h2 {
+  color: #ebebeb;
+  text-align: center;
+  font-family: "jakarta-semibold";
 }
 
 .buttons {
@@ -44,22 +50,22 @@ body {
 
 .web {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/web.webp);
+    url(..img/web.webp);
 }
 
 .ux {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/UX_img.webp);
+    url(..img/UX_img.webp);
 }
 
 .animation {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/spil.webp);
+    url(..img/spil.webp);
 }
 
 .indhold {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/jpeg.jpeg2.webp);
+    url(..img/jpeg.jpeg2.webp);
 }
 
 .grid_1 {
@@ -86,7 +92,11 @@ body {
   display: grid;
   grid-template-columns: 1fr;
 }
-
+.img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 /* Desktop
 .web_underside {
   grid-template-columns: 1fr 1fr;
@@ -105,8 +115,7 @@ body {
 }
 
 .om_mig_underside img {
-  border-radius: 15px;
-  max-width: 350px;
+  border-radius: 35px;
   margin: 0 auto;
 }
 
@@ -114,6 +123,8 @@ h3 {
   text-align: center;
   color: #ebebeb;
   padding: 10px;
+  font-family: "jakarta-semibold";
+  font-size: 45px;
 }
 .om_mig_grid {
   display: grid;
@@ -123,6 +134,18 @@ h3 {
   padding: 30px;
 }
 
+.order {
+  order: -1;
+}
+
+.cv p {
+  color: #ebebeb;
+  padding: 10px 30px;
+}
+
+.cv {
+  padding-bottom: 100px;
+}
 @media (min-width: 700px) {
   .om_mig_menu {
     text-align: right;
@@ -165,11 +188,24 @@ h3 {
     font-size: 30px;
     margin-bottom: 20px;
   }
-  .web_underside {
-    grid-template-columns: 1fr 1fr;
-  }
+
   .web_grid {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 75px;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .web_box_1 {
+    grid-template-columns: 1fr;
+  }
+
+  .web_grid p {
+    color: #ebebeb;
+    font-family: "Jakarta";
+    text-align: left;
   }
   .om_mig_grid {
     display: grid;
@@ -182,5 +218,9 @@ h3 {
     margin-left: 20px;
     border-radius: 37px;
     padding: 33px;
+  }
+  .cv {
+    display: grid;
+    grid-template-rows: 1fr;
   }
 }
