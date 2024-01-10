@@ -238,8 +238,6 @@ h1 {
   color: #ebebeb;
   margin-top: 15px;
 }
-.p_web {
-}
 
 .web_boks {
   padding: 20px;
@@ -296,6 +294,9 @@ footer {
   background-color: black;
 }
 
+.navn p {
+  color: #ebebeb;
+}
 .temabeskrivelse_p {
   color: #ebebeb;
   font-family: "jakarta";

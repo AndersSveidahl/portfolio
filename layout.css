@@ -4,7 +4,7 @@ img {
   display: block;
 }
 .img_forside {
-  background-image: url(..img/Asset_2.webp);
+  background-image: url(../img/Asset_2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,22 +50,22 @@ h2 {
 
 .web {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(..img/web.webp);
+    url(img/web.webp);
 }
 
 .ux {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(..img/UX_img.webp);
+    url(img/UX_img.webp);
 }
 
 .animation {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(..img/spil.webp);
+    url(img/spil.webp);
 }
 
 .indhold {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(..img/jpeg.jpeg2.webp);
+    url(img/jpeg.jpeg2.webp);
 }
 
 .grid_1 {
